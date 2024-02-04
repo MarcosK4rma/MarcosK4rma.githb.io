@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Poppins:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #1C1C26;
+    --cor-secundaria: #8C895D;
+    --cor-tercearia: #344022;
+
+    --fonte-primaria: font-family: 'Nanum Myeongjo', serif;
+
+
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+    font-family: var(--fonte-primaria);
+}
+
+.link-cabecalho {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-tercearia);
+    padding: 1%;
+    border-radius: 8%;
+}
+
+.links-cabecalho {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 30px;
+    background-color: var(--cor-secundaria);
+    
+}
+
+.conteudo {
+    font-size: 2.25rem; /* unidade de medida relativa que pega a base do html o siite mesmo*/
+} 
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    background-color: var(--cor-tercearia);
+}
+
+.paragrafo-2 {
+    text-align: center;
+    padding: 7%;
+    font-size: 1.5rem;
+}
+
+.conteudo-2 {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    margin: 2%;
+    gap: 10px;
+}
+
+.rodape {
+    background-color: var(--cor-tercearia);
+    padding: 3%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.camisas-de-time {
+    display: flex;
+    padding: 3%;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.bermudas {
+    display: flex;
+    padding: 3%;
+    gap: 40px;
+    justify-content: center;
+}
+
+.apresentacao-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    margin: 6%;
+    gap: 40px;
+    font-size: 1.5rem;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+}
+
+.botao {
+    border: 2px solid #8C895D;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 2%;
+    text-decoration: none;
+    color: #8C7161;
+}
